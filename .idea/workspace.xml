@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7282881-0a02-4407-9716-ad9840b0a4d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/BarrenLandAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BarrenLandAnalysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/farmLandUnit.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/farmPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/barrenLandAnalysisService.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/barrenLandAnalysisService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/services/test_barrenLandAnalysisService.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/services/test_barrenLandAnalysisService.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="farmLandUnit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/farmLandUnit.py">
+      <file leaf-file-name="farmPlot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/farmPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -39,8 +40,29 @@
       <file leaf-file-name="barrenLandAnalysisService.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/barrenLandAnalysisService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="204">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+              <folding>
+                <element signature="e#1#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="barrenSection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/barrenSection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="farmPlotFactory.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factories/farmPlotFactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -48,8 +70,20 @@
       <file leaf-file-name="test_barrenLandAnalysisService.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/services/test_barrenLandAnalysisService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="323">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="barrenSectionFactory.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factories/barrenSectionFactory.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -59,8 +93,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -71,12 +105,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/models/farmLandUnit.py" />
         <option value="$PROJECT_DIR$/services/test_barrenLandAnalysisService.py" />
-        <option value="$PROJECT_DIR$/services/barrenLandAnalysisService.py" />
         <option value="$PROJECT_DIR$/tests/services/test_barrenLandAnalysisServiceTest.py" />
         <option value="$PROJECT_DIR$/tests/services/barrenLandAnalysisServiceTests.py" />
         <option value="$PROJECT_DIR$/tests/services/test_barrenLandAnalysisServiceTests.py" />
+        <option value="$PROJECT_DIR$/factories/farmLandUnitFactory.py" />
+        <option value="$PROJECT_DIR$/models/farmLandUnit.py" />
+        <option value="$PROJECT_DIR$/models/farmPlot.py" />
+        <option value="$PROJECT_DIR$/factories/farmPlotFactory.py" />
+        <option value="$PROJECT_DIR$/models/barrenSection.py" />
+        <option value="$PROJECT_DIR$/factories/barrenSectionFactory.py" />
+        <option value="$PROJECT_DIR$/services/barrenLandAnalysisService.py" />
         <option value="$PROJECT_DIR$/tests/services/test_barrenLandAnalysisService.py" />
       </list>
     </option>
@@ -98,6 +137,11 @@
             <path>
               <item name="BarrenLandAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="BarrenLandAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BarrenLandAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BarrenLandAnalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BarrenLandAnalysis" type="b2602c69:ProjectViewProjectNode" />
@@ -177,34 +221,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2018.06.10 at 18h 26m 18s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.10 at 18h 31m 38s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.10 at 18h 33m 32s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.10 at 18h 34m 32s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.10 at 18h 34m 58s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.10 at 18h 35m 22s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.10 at 18h 35m 47s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unnamed - 2018.06.10 at 18h 36m 30s.xml">
-      <configuration name="Unnamed" configurationId="tests" />
-    </history-entry>
-    <history-entry file="run_tests - 2018.06.10 at 18h 37m 00s.xml">
+    <history-entry file="run_tests - 2018.06.11 at 22h 54m 10s.xml">
       <configuration name="run tests" configurationId="tests" />
     </history-entry>
-    <history-entry file="run_tests - 2018.06.10 at 18h 37m 19s.xml">
+    <history-entry file="run_tests - 2018.06.11 at 22h 54m 27s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 11m 30s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 15m 14s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 15m 57s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 17m 03s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 17m 22s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 18m 45s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 31m 26s.xml">
+      <configuration name="run tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="run_tests - 2018.06.11 at 23h 31m 45s.xml">
       <configuration name="run tests" configurationId="tests" />
     </history-entry>
   </component>
@@ -217,11 +261,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32908705" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" weight="0.52016985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.52016985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39915073" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915073" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -236,8 +280,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="9" />
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>len(actual[2])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>actual[2][2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(actual)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -250,7 +313,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/farmLandUnit.py">
+    <entry file="file://$PROJECT_DIR$/models/farmPlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
@@ -261,6 +324,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -268,6 +334,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -281,7 +350,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/farmLandUnit.py">
+    <entry file="file://$PROJECT_DIR$/models/farmPlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
@@ -323,13 +392,6 @@
     <entry file="file://$PROJECT_DIR$/services/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/farmLandUnit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1075">
@@ -337,17 +399,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/barrenLandAnalysisService.py">
+    <entry file="file://$PROJECT_DIR$/factories/farmPlotFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/farmPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/barrenSection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="681" selection-start-line="681" selection-end-line="681" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factories/barrenSectionFactory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/barrenLandAnalysisService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/services/test_barrenLandAnalysisService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="323">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
