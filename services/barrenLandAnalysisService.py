@@ -1,4 +1,4 @@
-
+from queue import *
 from factories.barrenSectionFactory import BarrenSectionFactory
 from factories.farmPlotFactory import FarmPlotFactory
 
@@ -28,6 +28,7 @@ class BarrenLandAnalysisService:
         farm_plot_matrix[y_coord][x_coord].isBarren = True
 
     def calculate_fertile_farm(self, farm_plot_matrix):
+        fertile_land = self.get_fertile_plots(farm_plot_matrix)
         return []
 
     def barren_plots_set_to_barren_section_array(self, barren_plots_set):
@@ -37,3 +38,8 @@ class BarrenLandAnalysisService:
             barren_sections.append(BarrenSectionFactory.create_barren_section(points[0], points[2], points[1], points[3]))
         return barren_sections
 
+    def get_fertile_plots(self, farm_plot_matrix):
+        plot_queue = Queue()
+        root = farm_plot_matrix[0][0]
+        # if fertile, recurse over children adding to a fertile queue. until queue empties. set each node to visited.
+        # if not fertile, add to main queue
