@@ -47,3 +47,12 @@ class TestBarrenPlotService(TestCase):
         self.assertTrue(matrix[1][0].isBarren)
         self.assertFalse(matrix[0][1].isBarren)
         self.assertFalse(matrix[1][1].isBarren)
+
+    def test_mark_barren_plots_should_apply_no_barren_values_if_set_is_empty(self):
+        barren_plots = {}
+        matrix = self.fps.build_farm_plot_matrix(2, 2)
+        self.bps.mark_barren_plots(matrix, barren_plots)
+        self.assertFalse(matrix[0][0].isBarren)
+        self.assertFalse(matrix[1][0].isBarren)
+        self.assertFalse(matrix[0][1].isBarren)
+        self.assertFalse(matrix[1][1].isBarren)
