@@ -1,11 +1,11 @@
 # BarrenLandAnalysis
 Calculate fertile land area in square meters, sorted from smallest area to greatest and separated by a 
-space, given submitted coordinates of barren land .
+space, given submitted coordinates of barren land.
 ## Preparation
 Install [Python](https://www.python.org/)  
 Pull down the repo.  
-Navigate to the root of the BarrenLandAnalysis folder  
-Open a terminal window or command prompt to accomplish the following tasks
+Open a mac terminal window or windows command prompt.  
+Before running tests or the application, navigate to the root of the BarrenLandAnalysis folder.  
 ## Running the unit tests 
 The following command will execute all of the tests.
 ```
