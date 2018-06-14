@@ -1,5 +1,6 @@
 # BarrenLandAnalysis
-
+Calculate fertile land area in square meters, sorted from smallest area to greatest and separated by a 
+space, given submitted coordinates of barren land .
 ## Preparation
 Install [Python](https://www.python.org/)  
 Pull down the repo.  
@@ -14,7 +15,7 @@ py -m unittest discover -v
 ```
 py run.py
 ```
-At the prompt, enter barren sections. For ex.
+At the prompt, enter barren sections. For example,
 ````
 {"0 292 399 307"}
 or

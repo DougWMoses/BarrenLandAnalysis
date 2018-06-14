@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7282881-0a02-4407-9716-ad9840b0a4d8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/barrenLandAnalysisService.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/barrenLandAnalysisService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/services/test_barrenLandAnalysisService.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/services/test_barrenLandAnalysisService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/services/test_barrenPlotService.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/services/test_barrenPlotService.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="269">
-                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="126" selection-start-line="1" selection-start-column="126" selection-end-line="1" selection-end-column="126" />
               </first_editor>
               <second_editor />
             </state>
@@ -626,8 +622,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="269">
-            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="126" selection-start-line="1" selection-start-column="126" selection-end-line="1" selection-end-column="126" />
           </first_editor>
           <second_editor />
         </state>
