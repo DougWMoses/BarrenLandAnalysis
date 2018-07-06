@@ -1,4 +1,4 @@
-# BarrenLandAnalysis
+# Random python app test
 Calculate fertile land area in square meters, sorted from smallest area to greatest and separated by a 
 space, given submitted coordinates of barren land.
 ## Preparation
